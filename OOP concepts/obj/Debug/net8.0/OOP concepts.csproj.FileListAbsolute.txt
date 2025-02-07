@@ -1,0 +1,15 @@
+D:\.NET\OOP concepts\bin\Debug\net8.0\OOP concepts.exe
+D:\.NET\OOP concepts\bin\Debug\net8.0\OOP concepts.deps.json
+D:\.NET\OOP concepts\bin\Debug\net8.0\OOP concepts.runtimeconfig.json
+D:\.NET\OOP concepts\bin\Debug\net8.0\OOP concepts.dll
+D:\.NET\OOP concepts\bin\Debug\net8.0\OOP concepts.pdb
+D:\.NET\OOP concepts\obj\Debug\net8.0\OOP concepts.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET\OOP concepts\obj\Debug\net8.0\OOP concepts.AssemblyInfoInputs.cache
+D:\.NET\OOP concepts\obj\Debug\net8.0\OOP concepts.AssemblyInfo.cs
+D:\.NET\OOP concepts\obj\Debug\net8.0\OOP concepts.csproj.CoreCompileInputs.cache
+D:\.NET\OOP concepts\obj\Debug\net8.0\OOP concepts.sourcelink.json
+D:\.NET\OOP concepts\obj\Debug\net8.0\OOP concepts.dll
+D:\.NET\OOP concepts\obj\Debug\net8.0\refint\OOP concepts.dll
+D:\.NET\OOP concepts\obj\Debug\net8.0\OOP concepts.pdb
+D:\.NET\OOP concepts\obj\Debug\net8.0\OOP concepts.genruntimeconfig.cache
+D:\.NET\OOP concepts\obj\Debug\net8.0\ref\OOP concepts.dll

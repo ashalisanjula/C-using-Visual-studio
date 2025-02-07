@@ -13,6 +13,16 @@ namespace OOP_concepts
         string studentName;
 
         //member functions
+
+        public void acceptDetails()
+        {
+            Console.Write("Enter Student Id : ");
+            studentId = int.Parse(Console.ReadLine());
+            Console.Write("Enter Student Name : ");
+            studentName = Console.ReadLine();
+
+        }
+
         public void displayDetails()
         {
             Console.WriteLine("Student Id: " +studentId);

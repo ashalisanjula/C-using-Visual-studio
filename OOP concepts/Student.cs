@@ -9,8 +9,8 @@ namespace OOP_concepts
     internal class Student
     {
         //data members
-        int studentId;
-        string studentName;
+        private int studentId;
+        private string studentName;
 
         //member functions
 

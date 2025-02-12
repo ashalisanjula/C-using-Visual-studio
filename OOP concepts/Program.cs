@@ -22,5 +22,13 @@ savingacc1.withdraw();
 savingacc1.closeAccount();
 
 
+Console.WriteLine();
+
+Console.WriteLine(Calculator.increment());
+Console.WriteLine(Calculator.increment());
+Console.WriteLine(Calculator.increment());
+Console.WriteLine(Calculator.decrement());
+
+
 
 Console.ReadKey(); // to fix the issue that console window close immediately after the execution

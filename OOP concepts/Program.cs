@@ -3,7 +3,7 @@
 Student student = new Student();
 student.displayDetails();
 
-Student student1 = new Student(1,"Ashali");
+Student student1 = new Student(1, "Ashali");
 student1.displayDetails();
 
 
@@ -35,7 +35,7 @@ bool result = number.IsGreaterThan(1000);
 Console.WriteLine(result);
 
 
-String s = "Hello World";
+string s = "Hello World";
 
 int strLength = s.Length;
 Console.WriteLine(strLength);
@@ -57,6 +57,19 @@ Console.WriteLine(user.Name);
 Console.WriteLine(user.CompanyName);
 Console.WriteLine(user.Age);
 
+Console.WriteLine();
+
+StringIndeexerType stringIndeexerType = new StringIndeexerType();
+stringIndeexerType[0] = "String One";
+stringIndeexerType[1] = "String Two";
+stringIndeexerType[2] = "String Three";
+stringIndeexerType[3] = "String four";
+
+
+for(int i = 0; i < 10; i++)
+{
+    Console.WriteLine(stringIndeexerType[i]);
+}
 
 
 Console.ReadKey(); // to fix the issue that console window close immediately after the execution

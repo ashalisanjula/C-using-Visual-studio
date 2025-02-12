@@ -35,5 +35,19 @@ bool result = number.IsGreaterThan(1000);
 Console.WriteLine(result);
 
 
+String s = "Hello World";
+
+int strLength = s.Length;
+Console.WriteLine(strLength);
+
+
+Console.WriteLine();
+
+var employee = new Employee();
+Console.WriteLine(employee.EmpId);
+Console.WriteLine(employee.EmpName);
+employee.DisplayDetails();
+
+
 
 Console.ReadKey(); // to fix the issue that console window close immediately after the execution

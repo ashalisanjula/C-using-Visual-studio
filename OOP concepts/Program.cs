@@ -14,4 +14,13 @@ savingaccount.balance();
 savingaccount.withdraw();
 
 
+SavingAcc savingacc1 = new SavingAcc();
+savingacc1.openAccount();
+savingacc1.deposit();
+savingacc1.balance();
+savingacc1.withdraw(); 
+savingacc1.closeAccount();
+
+
+
 Console.ReadKey(); // to fix the issue that console window close immediately after the execution

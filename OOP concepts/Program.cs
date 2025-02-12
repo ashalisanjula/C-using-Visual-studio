@@ -48,6 +48,12 @@ Console.WriteLine(employee.EmpId);
 Console.WriteLine(employee.EmpName);
 employee.DisplayDetails();
 
+Console.WriteLine();
+
+User user = new User();
+user.Name = "King";
+Console.WriteLine(user.Name);
+
 
 
 Console.ReadKey(); // to fix the issue that console window close immediately after the execution

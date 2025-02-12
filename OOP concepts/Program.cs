@@ -53,7 +53,7 @@ Console.WriteLine();
 User user = new User();
 user.Name = "King";
 Console.WriteLine(user.Name);
-
+Console.WriteLine(user.CompanyName);
 
 
 Console.ReadKey(); // to fix the issue that console window close immediately after the execution

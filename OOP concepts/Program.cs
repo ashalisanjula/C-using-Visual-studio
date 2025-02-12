@@ -52,8 +52,11 @@ Console.WriteLine();
 
 User user = new User();
 user.Name = "King";
+user.Age = 34;
 Console.WriteLine(user.Name);
 Console.WriteLine(user.CompanyName);
+Console.WriteLine(user.Age);
+
 
 
 Console.ReadKey(); // to fix the issue that console window close immediately after the execution

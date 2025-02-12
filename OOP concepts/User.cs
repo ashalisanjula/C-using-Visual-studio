@@ -10,6 +10,7 @@ namespace OOP_concepts
     {
         private string name;
         private string companyName;
+        private int age;
 
         public User()
         {
@@ -29,6 +30,18 @@ namespace OOP_concepts
             set { name = value; }
         }
 
+        public int Age
+        {
+            get {return age;}
+            set
+            {
+                if(value < 20)
+                {
+                    throw new ArithmeticException("Invalid Age");
+                }
+                age = value;
+            }
+        }
         
     }
 }

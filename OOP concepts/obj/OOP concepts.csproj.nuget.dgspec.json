@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.NET\\OOP concepts\\OOP concepts.csproj": {}
+    "D:\\C# using Visual Studio\\OOP concepts\\OOP concepts.csproj": {}
   },
   "projects": {
-    "D:\\.NET\\OOP concepts\\OOP concepts.csproj": {
+    "D:\\C# using Visual Studio\\OOP concepts\\OOP concepts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.NET\\OOP concepts\\OOP concepts.csproj",
+        "projectUniqueName": "D:\\C# using Visual Studio\\OOP concepts\\OOP concepts.csproj",
         "projectName": "OOP concepts",
-        "projectPath": "D:\\.NET\\OOP concepts\\OOP concepts.csproj",
+        "projectPath": "D:\\C# using Visual Studio\\OOP concepts\\OOP concepts.csproj",
         "packagesPath": "C:\\Users\\Ashali\\.nuget\\packages\\",
-        "outputPath": "D:\\.NET\\OOP concepts\\obj\\",
+        "outputPath": "D:\\C# using Visual Studio\\OOP concepts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

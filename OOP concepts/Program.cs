@@ -72,4 +72,9 @@ for(int i = 0; i < 10; i++)
 }
 
 
+Console.WriteLine();
+
+EnumDemo enumDemo = new EnumDemo();
+enumDemo.display();
+
 Console.ReadKey(); // to fix the issue that console window close immediately after the execution

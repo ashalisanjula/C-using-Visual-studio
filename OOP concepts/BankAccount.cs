@@ -8,6 +8,11 @@ namespace OOP_concepts
 {
     public abstract class BankAccount
     {
+
+        public void getMessage()
+        {
+            Console.WriteLine("Welcome to ABC Bank");
+        }
         public abstract void deposit();
 
         public abstract void withdraw();

@@ -8,6 +8,7 @@ student1.displayDetails();
 
 
 SavingsAccount savingaccount = new SavingsAccount();
+savingaccount.getMessage();
 savingaccount.deposit();
 savingaccount.balance();
 savingaccount.withdraw();

@@ -81,5 +81,6 @@ Console.WriteLine();
 
 Calculation calculation = new Calculation();
 calculation.calculate(12,0);
+calculation.calculateAnother();
 
 Console.ReadKey(); // to fix the issue that console window close immediately after the execution

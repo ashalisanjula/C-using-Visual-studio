@@ -66,6 +66,11 @@ class Program
             Console.WriteLine("Event Executed: Odd Number");
         }
 
+        Console.WriteLine();
+
+        //Annonymous mehtod
+        AnonymousMethodExample.InvokeMethod();
+
     }
 }
 

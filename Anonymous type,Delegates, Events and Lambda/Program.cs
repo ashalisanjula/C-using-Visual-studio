@@ -51,6 +51,21 @@ class Program
         c3(100);
         Console.WriteLine(DelegateExamples.getNumber());
 
+
+        Console.WriteLine();
+
+        //The subscriber model(calling the event)
+
+        EventsExamples events = new EventsExamples();
+        events.event_OddNumber += new EventsExamples.delegate_OddNumber(EventMessage);
+        events.addition();
+        Console.ReadLine(); 
+
+        static void EventMessage()
+        {
+            Console.WriteLine("Event Executed: Odd Number");
+        }
+
     }
 }
 

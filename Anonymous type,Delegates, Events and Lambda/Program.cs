@@ -1,4 +1,5 @@
-﻿using Anonymous_type_Delegates__Events_and_Lambda;
+﻿using System.Security.Cryptography.X509Certificates;
+using Anonymous_type_Delegates__Events_and_Lambda;
 
 class Program
 {
@@ -71,6 +72,18 @@ class Program
         //Annonymous mehtod
         AnonymousMethodExample.InvokeMethod();
 
+
+        //demostrating expression lambda
+        var numbers = new int[] { 2, 5, 6, 8, 1, 3, 5, 5 };
+
+        //var count = numbers.Count(X => X == 5);
+        //Console.WriteLine(count);
+
+        //statement lambda
+
+        List<int> numbers2 = new List<int> { 2, 5, 6, 8, 1, 3, 5, 5 };
+        var count = numbers.Count(x => {  return x == 5; });
+        Console.WriteLine(count);
     }
 }
 

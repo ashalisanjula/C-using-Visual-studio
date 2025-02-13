@@ -41,6 +41,16 @@ namespace OOP_concepts
                 result = num1 / num2;
 
             }
+            catch (DivideByZeroException e)
+            {
+                Console.WriteLine(e.Message);
+
+            }
+            catch (FormatException e)
+            {
+                Console.WriteLine(e.Message);
+
+            }
             catch (Exception e)
             {
                 Console.WriteLine(e.Message);

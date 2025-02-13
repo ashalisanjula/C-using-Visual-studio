@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Anonymous type,Delegates, Events and Lambda")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+baa929a9c5b98e2d6a2cfb753fb05465f12b22f2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aab91429728867a28d9eab71b9cfd541ce6ebb48")]
 [assembly: System.Reflection.AssemblyProductAttribute("Anonymous type,Delegates, Events and Lambda")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Anonymous type,Delegates, Events and Lambda")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

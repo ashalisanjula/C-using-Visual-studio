@@ -23,7 +23,7 @@ namespace OOP_concepts
         {
             Console.WriteLine(WeekDays.Monday);
             int day =(int)WeekDays.Monday;
-            Console.WriteLine(WeekDays.Monday+ ":" +day);
+            Console.WriteLine(WeekDays.Monday+ ":" +day); 
 
             Console.WriteLine(WeekDays.Tuesday);
              day = (int)WeekDays.Tuesday;

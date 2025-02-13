@@ -77,4 +77,9 @@ Console.WriteLine();
 EnumDemo enumDemo = new EnumDemo();
 enumDemo.display();
 
+Console.WriteLine();
+
+Calculation calculation = new Calculation();
+calculation.calculate(12,0);
+
 Console.ReadKey(); // to fix the issue that console window close immediately after the execution

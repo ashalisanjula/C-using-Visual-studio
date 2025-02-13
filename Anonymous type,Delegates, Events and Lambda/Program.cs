@@ -1,4 +1,6 @@
-﻿class Program
+﻿using Anonymous_type_Delegates__Events_and_Lambda;
+
+class Program
 {
     static void Main()
     {
@@ -25,6 +27,19 @@
         {
             Console.WriteLine(project.projectName+ ":" +project.projectDuration);
         }
+
+        Console.WriteLine();
+
+        CalculateDelegate c1 = new CalculateDelegate(DelegateExamples.addition);
+        CalculateDelegate c2 = new CalculateDelegate(DelegateExamples.Multiplication);
+
+        c1(100);
+        Console.WriteLine(DelegateExamples.getNumber());
+        c2(2);
+        Console.WriteLine(DelegateExamples.getNumber());
+
+
     }
 }
+
 

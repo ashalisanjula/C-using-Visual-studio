@@ -30,23 +30,25 @@ class Program
 
         Console.WriteLine();
 
-        CalculateDelegate c1 = new CalculateDelegate(DelegateExamples.addition);
-        CalculateDelegate c2 = new CalculateDelegate(DelegateExamples.Multiplication);
+        //CalculateDelegate c1 = new CalculateDelegate(DelegateExamples.addition);
+        //CalculateDelegate c2 = new CalculateDelegate(DelegateExamples.Multiplication);
 
-        c1(100);
-        Console.WriteLine(DelegateExamples.getNumber());
-        c2(2);
-        Console.WriteLine(DelegateExamples.getNumber());
+        //c1(100);
+        //Console.WriteLine(DelegateExamples.getNumber());
+        //c2(100);
+        //Console.WriteLine(DelegateExamples.getNumber());
 
         //tying delegates in another way
 
-        CalculateDelegate c3 = new CalculateDelegate(DelegateExamples.addition); 
+        CalculateDelegate c3 = new CalculateDelegate(DelegateExamples.addition);
+
         c3(100);
 
         Console.WriteLine(DelegateExamples.getNumber());
+        c3 += new CalculateDelegate(DelegateExamples.addition);
         c3 += new CalculateDelegate(DelegateExamples.Multiplication);
 
-        c3(2);
+        c3(100);
         Console.WriteLine(DelegateExamples.getNumber());
 
     }

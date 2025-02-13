@@ -1,0 +1,15 @@
+D:\C# using Visual Studio\Anonymous type,Delegates, Events and Lambda\bin\Debug\net8.0\Anonymous type,Delegates, Events and Lambda.exe
+D:\C# using Visual Studio\Anonymous type,Delegates, Events and Lambda\bin\Debug\net8.0\Anonymous type,Delegates, Events and Lambda.deps.json
+D:\C# using Visual Studio\Anonymous type,Delegates, Events and Lambda\bin\Debug\net8.0\Anonymous type,Delegates, Events and Lambda.runtimeconfig.json
+D:\C# using Visual Studio\Anonymous type,Delegates, Events and Lambda\bin\Debug\net8.0\Anonymous type,Delegates, Events and Lambda.dll
+D:\C# using Visual Studio\Anonymous type,Delegates, Events and Lambda\bin\Debug\net8.0\Anonymous type,Delegates, Events and Lambda.pdb
+D:\C# using Visual Studio\Anonymous type,Delegates, Events and Lambda\obj\Debug\net8.0\Anonymous type,Delegates, Events and Lambda.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# using Visual Studio\Anonymous type,Delegates, Events and Lambda\obj\Debug\net8.0\Anonymous type,Delegates, Events and Lambda.AssemblyInfoInputs.cache
+D:\C# using Visual Studio\Anonymous type,Delegates, Events and Lambda\obj\Debug\net8.0\Anonymous type,Delegates, Events and Lambda.AssemblyInfo.cs
+D:\C# using Visual Studio\Anonymous type,Delegates, Events and Lambda\obj\Debug\net8.0\Anonymous type,Delegates, Events and Lambda.csproj.CoreCompileInputs.cache
+D:\C# using Visual Studio\Anonymous type,Delegates, Events and Lambda\obj\Debug\net8.0\Anonymous type,Delegates, Events and Lambda.sourcelink.json
+D:\C# using Visual Studio\Anonymous type,Delegates, Events and Lambda\obj\Debug\net8.0\Anonymous type,Delegates, Events and Lambda.dll
+D:\C# using Visual Studio\Anonymous type,Delegates, Events and Lambda\obj\Debug\net8.0\refint\Anonymous type,Delegates, Events and Lambda.dll
+D:\C# using Visual Studio\Anonymous type,Delegates, Events and Lambda\obj\Debug\net8.0\Anonymous type,Delegates, Events and Lambda.pdb
+D:\C# using Visual Studio\Anonymous type,Delegates, Events and Lambda\obj\Debug\net8.0\Anonymous type,Delegates, Events and Lambda.genruntimeconfig.cache
+D:\C# using Visual Studio\Anonymous type,Delegates, Events and Lambda\obj\Debug\net8.0\ref\Anonymous type,Delegates, Events and Lambda.dll

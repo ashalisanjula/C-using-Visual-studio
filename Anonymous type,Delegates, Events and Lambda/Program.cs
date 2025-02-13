@@ -38,6 +38,16 @@ class Program
         c2(2);
         Console.WriteLine(DelegateExamples.getNumber());
 
+        //tying delegates in another way
+
+        CalculateDelegate c3 = new CalculateDelegate(DelegateExamples.addition); 
+        c3(100);
+
+        Console.WriteLine(DelegateExamples.getNumber());
+        c3 += new CalculateDelegate(DelegateExamples.Multiplication);
+
+        c3(2);
+        Console.WriteLine(DelegateExamples.getNumber());
 
     }
 }

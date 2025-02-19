@@ -18,9 +18,15 @@ namespace CoreWebApplication.Controllers
             return View();
         }
 
+        
         public IActionResult Privacy()
         {
             return View();
+        }
+
+        public string Message2()
+        {
+            return "Hello World";
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
@@ -29,9 +35,9 @@ namespace CoreWebApplication.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-        public IActionResult Message() 
-        {
-            return View();
-        }
+        //public IActionResult Message() 
+        //{
+        //    return View();
+        //}
     }
 }

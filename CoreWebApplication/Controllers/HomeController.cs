@@ -24,9 +24,9 @@ namespace CoreWebApplication.Controllers
             return View();
         }
 
-        public string Message2()
+        public ViewResult Message2()
         {
-            return "Hello World";
+            return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

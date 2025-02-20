@@ -16,8 +16,11 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapControllerRoute(
+app.MapControllerRoute( //this is a conventional routing
     name: "default",
     pattern: "{controller=Customer}/{action=Index}/{id?}");
+
+
+
 
 app.Run();

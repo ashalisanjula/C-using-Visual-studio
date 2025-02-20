@@ -14,10 +14,18 @@ namespace CoreWebApplication.Controllers
         public IActionResult Index()
         {
             ViewBag.Message = "Customer Management System";
-            ViewBag.CustomerCount = customers.Count;
+            ViewBag.CustomerCount = customers.Count();
             ViewBag.CustomerList = customers;
             return View();
         }
-        
+
+        public IActionResult Details()
+        {
+            ViewData["Message"] = "Customer Management System";
+            ViewData["CustomerCount"] = customers.Count();
+            ViewData["CustomerList"]= customers;
+            return View();
+        }
+
     }
 }

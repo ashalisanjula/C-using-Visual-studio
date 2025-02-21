@@ -35,5 +35,14 @@ namespace CoreWebApplication.Controllers
             return View();
         }
 
+        public IActionResult Method2()
+        {
+            if (TempData["Message"] == null)
+                return RedirectToAction("Index");
+            TempData["Message"] = TempData["Message"].ToString();
+                return View();
+            
+        }
+
     }
 }

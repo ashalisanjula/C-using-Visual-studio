@@ -34,5 +34,10 @@
             }
         </tbody>
     </table>
+    @{
+        TempData.Keep("Message");
+    }
+
+    <a asp-controller="Demo" asp-action="Method2">Go to  Method2</a>
 </body>
 </html>

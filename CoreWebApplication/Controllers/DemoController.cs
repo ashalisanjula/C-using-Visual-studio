@@ -55,5 +55,11 @@ namespace CoreWebApplication.Controllers
             ViewBag.Username = HttpContext.Session.GetString("username");
             return View();  
         }
+        
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Remove("username");
+            return RedirectToAction("Index");
+        }
     }
 }

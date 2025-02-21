@@ -62,6 +62,9 @@ namespace CoreWebApplication.Controllers
             return RedirectToAction("Index");
         }
 
+
+        //Request URL : http://localhost:5018/Demo/QueryTest
+        //Request URL after adding query parameters : http://localhost:5018/Demo/QueryTest?name=Ashali%20Samaraweera
         public IActionResult QueryTest()
         {
             string name = "King Kochhar";

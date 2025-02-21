@@ -44,5 +44,16 @@ namespace CoreWebApplication.Controllers
             
         }
 
+        public IActionResult Loggin() 
+        {
+            HttpContext.Session.SetString("username", "Bhawana"); // username is the key and Bhawana is the value
+            return RedirectToAction("Success");
+        }
+
+        public IActionResult Success()
+        {
+            ViewBag.Username = HttpContext.Session.GetString("username");
+            return View();  
+        }
     }
 }
